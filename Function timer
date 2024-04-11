@@ -9,3 +9,4 @@ def timer(func):
         end = perf_counter()
         print(f'Время работы функции {end-start} сек')
         return res
+    return wrapper
