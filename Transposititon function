@@ -1,5 +1,0 @@
-def transposition(matrix: list[list]) -> list[list]:
-    '''Функция транспонирования матрицы вида list[list] любой размерности
-
-Transposition function of matrix of type list[list]'''
-    return [list(row) for row in zip(*matrix)]
